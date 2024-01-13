@@ -19,9 +19,6 @@ class Course {
     }
 
     public String toString() {
-        return "Course{" +
-                "title='" + title + '\'' +
-                ", teacher='" + teacher + '\'' +
-                '}';
+        return "Course{" + "title='" + title + '\'' + ", teacher='" + teacher + '\'' + '}';
     }
 }
