@@ -1,9 +1,9 @@
 import java.util.Arrays;
 
 class Student {
-    private String name;
-    private int age;
-    private String[] courses;
+    String name;
+    int age;
+    String[] courses;
 
     public String getName() {
         return name;
