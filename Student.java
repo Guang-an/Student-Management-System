@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 class Student {
     private String name;
+    private int age;
     private String[] courses;
 
     public String getName() {
@@ -10,6 +11,14 @@ class Student {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String[] getCourses() {
@@ -21,6 +30,6 @@ class Student {
     }
 
     public String toString() {
-        return "Student{" + "name='" + name + '\'' + ", courses=" + Arrays.toString(courses) + '}';
+        return "Student{" + "name='" + name + '\'' + ", age=" + age + ", courses=" + Arrays.toString(courses) + '}';
     }
 }
